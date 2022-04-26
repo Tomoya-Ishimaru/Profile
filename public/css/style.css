@@ -1,0 +1,1013 @@
+@charset "UTF-8";
+.img-container .img-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 800px;
+  width: 100%;
+}
+
+.img-container .img-back .img-1 {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation-name: img-1;
+          animation-name: img-1;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+}
+
+.img-container .img-back .img-2 {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation-name: img-2;
+          animation-name: img-2;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+}
+
+.img-container .img-back .img-3 {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation-name: img-3;
+          animation-name: img-3;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+}
+
+.img-container .img-back .img-4 {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation-name: img-4;
+          animation-name: img-4;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+}
+
+.content {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-item {
+  -ms-flex-preferred-size: 47%;
+      flex-basis: 47%;
+  font-family: "Beau Rivage", cursive;
+  position: relative;
+}
+
+.content-item .svg-back {
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  width: 250px;
+  height: 250px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.content-item .svg-back #svg1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotateZ(60deg);
+          transform: rotateZ(60deg);
+  -webkit-filter: drop-shadow(3px 3px 5px #ee82ee);
+          filter: drop-shadow(3px 3px 5px #ee82ee);
+  fill: url(#SVGID_1_);
+  -webkit-animation-name: svg-1;
+          animation-name: svg-1;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+  z-index: 100;
+}
+
+.content-item .svg-back #svg2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-filter: drop-shadow(7px 3px 5px #adff2f);
+          filter: drop-shadow(7px 3px 5px #adff2f);
+  fill: url(#fill2);
+  -webkit-animation-name: svg-2;
+          animation-name: svg-2;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+  z-index: 100;
+}
+
+.content-item .svg-back #svg3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-filter: drop-shadow(7px 3px 5px #ff4500);
+          filter: drop-shadow(7px 3px 5px #ff4500);
+  fill: url(#fill3);
+  -webkit-transform: rotateZ(-30deg);
+          transform: rotateZ(-30deg);
+  -webkit-animation-name: svg-3;
+          animation-name: svg-3;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+  z-index: 100;
+}
+
+.content-item .svg-back #svg4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-filter: drop-shadow(7px 3px 5px black);
+          filter: drop-shadow(7px 3px 5px black);
+  fill: url(#fill4);
+  -webkit-animation-name: svg-4;
+          animation-name: svg-4;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  opacity: 0;
+  z-index: 100;
+}
+
+.content .main-title {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 0;
+  display: block;
+  -webkit-animation-name: main-colorChange;
+          animation-name: main-colorChange;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  border-bottom: none !important;
+}
+
+.content .sub-title {
+  font-size: 14px;
+  -webkit-animation-name: sub-colorChange;
+          animation-name: sub-colorChange;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  /*2で解説*/
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  /*3で解説*/
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*4で解説*/
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  /*5で解説*/
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  /*6で解説*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  /*7で解説*/
+  text-shadow: none !important;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateY(-90deg);
+            transform: rotateY(-90deg);
+  }
+  12.5% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  37.5% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(270deg);
+            transform: rotateY(270deg);
+  }
+  62.5% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  75% {
+    -webkit-transform: rotateY(450deg);
+            transform: rotateY(450deg);
+  }
+  87.5% {
+    -webkit-transform: rotateY(540deg);
+            transform: rotateY(540deg);
+  }
+  100% {
+    -webkit-transform: rotateY(630deg);
+            transform: rotateY(630deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateY(-90deg);
+            transform: rotateY(-90deg);
+  }
+  12.5% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  37.5% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(270deg);
+            transform: rotateY(270deg);
+  }
+  62.5% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  75% {
+    -webkit-transform: rotateY(450deg);
+            transform: rotateY(450deg);
+  }
+  87.5% {
+    -webkit-transform: rotateY(540deg);
+            transform: rotateY(540deg);
+  }
+  100% {
+    -webkit-transform: rotateY(630deg);
+            transform: rotateY(630deg);
+  }
+}
+
+@-webkit-keyframes img-1 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes img-1 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes img-2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  37.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes img-2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  37.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes img-3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes img-3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes img-4 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  87.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes img-4 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  87.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes svg-1 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes svg-1 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes svg-2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  37.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes svg-2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  37.5% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes svg-3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes svg-3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes svg-4 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  87.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes svg-4 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  87.5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes main-colorChange {
+  0% {
+    text-shadow: 5px -2px 3px white;
+  }
+  12.5% {
+    text-shadow: 5px -2px 3px pink;
+  }
+  25% {
+    text-shadow: 5px -2px 3px white;
+  }
+  37.50% {
+    text-shadow: 5px -2px 3px green;
+  }
+  50% {
+    text-shadow: 5px -2px 3px white;
+  }
+  62.5% {
+    text-shadow: 5px -2px 3px red;
+  }
+  75% {
+    text-shadow: 5px -2px 3px white;
+  }
+  87.5% {
+    text-shadow: 5px -2px 3px gray;
+  }
+  100% {
+    text-shadow: 5px -2px 3px white;
+  }
+}
+
+@keyframes main-colorChange {
+  0% {
+    text-shadow: 5px -2px 3px white;
+  }
+  12.5% {
+    text-shadow: 5px -2px 3px pink;
+  }
+  25% {
+    text-shadow: 5px -2px 3px white;
+  }
+  37.50% {
+    text-shadow: 5px -2px 3px green;
+  }
+  50% {
+    text-shadow: 5px -2px 3px white;
+  }
+  62.5% {
+    text-shadow: 5px -2px 3px red;
+  }
+  75% {
+    text-shadow: 5px -2px 3px white;
+  }
+  87.5% {
+    text-shadow: 5px -2px 3px gray;
+  }
+  100% {
+    text-shadow: 5px -2px 3px white;
+  }
+}
+
+@-webkit-keyframes sub-colorChange {
+  0% {
+    border-bottom: solid 1px aliceblue;
+  }
+  12.5% {
+    border-bottom: solid 1px pink;
+  }
+  25% {
+    border-bottom: solid 1px aliceblue;
+  }
+  37.5% {
+    border-bottom: solid 1px green;
+  }
+  50% {
+    border-bottom: solid 1px aliceblue;
+  }
+  62.5% {
+    border-bottom: solid 1px red;
+  }
+  75% {
+    border-bottom: solid 1px aliceblue;
+  }
+  87.5% {
+    border-bottom: solid 1px gray;
+  }
+  100% {
+    border-bottom: solid 1px aliceblue;
+  }
+}
+
+@keyframes sub-colorChange {
+  0% {
+    border-bottom: solid 1px aliceblue;
+  }
+  12.5% {
+    border-bottom: solid 1px pink;
+  }
+  25% {
+    border-bottom: solid 1px aliceblue;
+  }
+  37.5% {
+    border-bottom: solid 1px green;
+  }
+  50% {
+    border-bottom: solid 1px aliceblue;
+  }
+  62.5% {
+    border-bottom: solid 1px red;
+  }
+  75% {
+    border-bottom: solid 1px aliceblue;
+  }
+  87.5% {
+    border-bottom: solid 1px gray;
+  }
+  100% {
+    border-bottom: solid 1px aliceblue;
+  }
+}
+
+.hobby-content {
+  position: relative;
+  margin: 0 auto;
+}
+
+.hobby-content .img-block {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  -webkit-box-shadow: inset 0 0 30px black;
+          box-shadow: inset 0 0 30px black;
+}
+
+.hobby-content .img-block::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: inset 0 0 30px white;
+          box-shadow: inset 0 0 30px white;
+}
+
+.hobby-content .img-block .img-item {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+  -webkit-box-shadow: inset 0 0 30px black;
+          box-shadow: inset 0 0 30px black;
+}
+
+.hobby-content .img-block .img-title {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  -webkit-transform: translate(-55%);
+          transform: translate(-55%);
+  color: aliceblue;
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 5px -2px 3px gray;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+  opacity: 0;
+}
+
+.hobby-content .img-block .img-title.inview {
+  opacity: 1;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel__main {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.carousel__main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: inset 0 0 30px white;
+          box-shadow: inset 0 0 30px white;
+}
+
+.carousel__main .carousel__title {
+  position: absolute;
+  top: 18%;
+  left: 40%;
+  -webkit-transform: translate(-55%);
+          transform: translate(-55%);
+  color: aliceblue;
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 5px -2px 3px gray;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.carousel__main > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel__prev {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  color: lightgray;
+  z-index: 10;
+}
+
+.carousel__prev:hover {
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transform: translate(-10px, -50%);
+          transform: translate(-10px, -50%);
+}
+
+.carousel__next {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  color: lightgray;
+}
+
+.carousel__next:hover {
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transform: translate(-10px, -50%);
+          transform: translate(-10px, -50%);
+}
+
+.carousel__thumbnails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.carousel__thumbnails li {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.carousel__thumbnails li:hover {
+  opacity: 1;
+}
+
+.carousel__thumbnails li.current {
+  opacity: 1;
+}
+
+.carousel__thumbnails img {
+  width: 80px;
+}
+
+.active-enter {
+  opacity: 0;
+}
+
+.active-enter-to {
+  opacity: 1;
+}
+
+.active-enter-active {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.active-leave {
+  opacity: 1;
+}
+
+.active-leave-to {
+  opacity: 0;
+}
+
+.active-leave-active {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+/*# sourceMappingURL=style.css.map */

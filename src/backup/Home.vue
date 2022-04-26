@@ -1,24 +1,26 @@
 <template>
   <div class="img-container">
     <div class="img-back">
-      <img class="img-1" alt="Vue logo" src="../assets/images2/back1.jpg" />
+      <img class="img1" alt="Vue logo" src="../assets/images2/back1.jpg" />
     </div>
 
     <div class="img-back">
-      <img class="img-2" alt="Vue logo" src="../assets/images2/back2.jpg" />
+      <img class="img2" alt="Vue logo" src="../assets/images2/back2.jpg" />
     </div>
 
     <div class="img-back">
-      <img class="img-3" alt="Vue logo" src="../assets/images2/back3.jpg" />
+      <img class="img3" alt="Vue logo" src="../assets/images2/back3.jpg" />
     </div>
 
     <div class="img-back">
-      <img class="img-4" alt="Vue logo" src="../assets/images2/back4.jpg" />
+      <img class="img4" alt="Vue logo" src="../assets/images2/back4.jpg" />
     </div>
   </div>
 
-  
+  <div class="home">
     <div class="content">
+      <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+
       <div class="content-item">
         <div class="svg-back">
           <svg
@@ -60,10 +62,7 @@
             <metadata>
               Created by potrace 1.15, written by Peter Selinger 2001-2017
             </metadata>
-            <g
-              transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-              stroke="none"
-            >
+           
               <linearGradient
                 id="fill2"
                 gradientUnits="userSpaceOnUse"
@@ -575,24 +574,413 @@ l-73 227 -41 0 c-22 -1 -87 -15 -145 -33z"
             <span class="name main-title">Tomo</span>
           </div>
           <div>
-            <span class="Japan sub-title">from Japan</span>
-          </div>
-          <div>
             <span class="language sub-title">CSS/JAVASCRIPT/PHP/JAVA</span>
           </div>
         </div>
       </div>
     </div>
-  
+  </div>
 </template>
 
 <script>
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue'
+
 // export default {
 //   name: 'Home',
-//   data(){
-//     return{
-
-//     }
+//   components: {
+//     HelloWorld
 //   }
 // }
 </script>
+
+<style scoped>
+#svg1 {
+  width: 100%;
+  height: 100%;
+  /* fill: pink; */
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  transform:  rotateZ(60deg);
+  /* display: block; */
+  /* box-shadow: inset 0 0 30px white; */
+  filter: drop-shadow(3px 3px 5px #ee82ee);
+  fill: url(#SVGID_1_);
+  animation-name: img1;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+  opacity: 0;
+}
+#svg2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform: rotateZ(60deg); */
+  /* display: block; */
+  /* box-shadow: inset 0 0 30px white; */
+  filter: drop-shadow(7px 3px 5px #adff2f);
+  fill: url(#fill2);
+  animation-name: img2;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+  opacity: 0;
+}
+
+#svg3 {
+  width: 100%;
+  height: 100%;
+  /* fill: pink; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform: rotateZ(60deg); */
+  /* display: block; */
+  /* box-shadow: inset 0 0 30px white; */
+  filter: drop-shadow(7px 3px 5px#ff4500);
+  fill: url(#fill3);
+  transform: rotateZ(-30deg);
+  animation-name: img3;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+  opacity: 0;
+}
+
+#svg4 {
+  width: 100%;
+  height: 100%;
+  /* fill: pink; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform: rotateZ(60deg); */
+  /* display: block; */
+  /* box-shadow: inset 0 0 30px white; */
+  filter: drop-shadow(7px 3px 5px black);
+  fill: url(#fill4);
+  animation-name: img4;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+  opacity: 0;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-item {
+  flex-basis: 47%;
+  font-family: "Beau Rivage", cursive;
+}
+
+.img-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 700px;
+}
+
+.img1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  animation-name: img1;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+  opacity: 1;
+}
+
+@keyframes img1 {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  75%{
+    opacity: 0;
+  }
+
+  /* 87.5% {
+    opacity: 1;
+  } */
+  100% {
+    opacity: 0;
+  }
+}
+
+.img2 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  animation-name: img2;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+  opacity: 0;
+}
+
+@keyframes img2 {
+  0% {
+    opacity: 0;
+  }
+ 
+  25% {
+    opacity: 0;
+  }
+
+   37.5% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+
+}
+
+.img3 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  animation-name: img3;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s;  */
+  animation-direction: normal; /*7で解説*/
+  opacity: 0;
+}
+
+@keyframes img3 {
+  0% {
+    opacity: 0;
+  }
+ 
+  50% {
+    opacity: 0;
+  }
+
+   62.5% {
+    opacity: 1;
+  }
+  75%{
+    opacity: 0;
+  }
+}
+
+.img4 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  animation-name: img4;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s;  */
+  animation-direction: normal; /*7で解説*/
+  opacity: 0;
+}
+
+@keyframes img4 {
+  0% {
+    opacity: 0;
+  }
+ 
+  75% {
+    opacity: 0;
+  }
+
+  87.5% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+/* @keyframes kf-cover-slide {
+   0% {
+   
+    opacity: 1;
+    transform: rotateZ(60deg) rotateY(0deg);
+  }
+  30% {
+    opacity: 1;
+  } 
+  
+  50%{
+     transform: rotateZ(60deg) rotateY(90deg);
+      opacity: 0;
+    }
+  60% {
+   opacity: 1;
+  } 
+  100% {
+  
+    opacity: 1;
+    transform: rotateZ(60deg) rotateY(180deg);
+  }
+} */
+
+.svg-back {
+  animation-name: kf-cover-slide;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+  width: 250px;
+  height: 250px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+@keyframes kf-cover-slide {
+  0% {
+    /* opacity: 0; */
+    transform: rotateY(-90deg);
+  }
+  12.5% {
+    /* opacity: 1; */
+    transform: rotateY(0deg);
+  }
+
+  25% {
+    /* opacity: 0; */
+    transform: rotateY(90deg);
+  }
+
+  37.5%{
+    /* opacity: 1; */
+    transform: rotateY(180deg);
+  }
+
+  50% {
+    transform: rotateY(270deg);
+    /* opacity: 0; */
+  }
+   62.5% {
+    /* opacity: 1; */
+    transform: rotateY(360deg);
+  }
+
+  75% {
+    /* opacity: 0; */
+    transform: rotateY(450deg);
+  }
+
+  87.5%{
+    /* opacity: 1; */
+    transform: rotateY(540deg);
+  }
+
+  100% {
+    transform: rotateY(630deg);
+    /* opacity: 0; */
+  }
+}
+
+/* .font-sm {
+ 
+}
+.font-md {
+  font-size: 17px;
+}
+.font-lr {
+  font-size: 17px;
+}
+.font-lg {
+  
+} */
+
+.main-title {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 0;
+  display: block;
+  text-shadow: 5px -2px 3px pink;
+  animation-name: kf-cover;
+  animation-fill-mode: none; /*2で解説*/
+  animation-duration: 20s; /*3で解説*/
+  animation-iteration-count: infinite; /*4で解説*/
+  animation-timing-function: ease; /*5で解説*/
+  /* animation-delay: 0.5s; 6で解説 */
+  animation-direction: normal; /*7で解説*/
+}
+
+@keyframes kf-cover {
+  0%{
+    text-shadow: 5px -2px 3px pink;
+  }
+  25% {
+    text-shadow: 5px -2px 3px green;
+  }
+  50% {
+    text-shadow: 5px -2px 3px red;
+  }
+  75% {
+    text-shadow: 5px -2px 3px gray;
+  }
+  100%{
+    text-shadow: 5px -2px 3px pink;
+  }
+
+}
+.sub-title {
+  font-size: 14px;
+  border-bottom: solid 1px pink;
+  /* color: $cSubTitle; */
+}
+
+@media (min-width: 600px) {
+  .content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* top: 50%; */
+    align-items: center;
+  }
+}
+</style>
